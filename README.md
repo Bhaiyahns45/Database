@@ -8,6 +8,8 @@ To take/export the dump of database
 
 To load/import the dump to database
 
+    first create database in pgadmin with db_name
+
     pg_restore -U postgres -d db_name "C:\Users\bhaiya\Downloads\file_name.dump"
 
     
